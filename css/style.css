@@ -1,0 +1,126 @@
+@import url("fonts.css") html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+:root {
+  --black-color: #1d1d1f;
+  --white-color: #ffffff;
+  --blue-color: #0066cc;
+  --grey-color: #86868b;
+  --light-grey-color: #f5f5f7;
+  font-family: "SF Pro Text", "Helvetica", sans-serif;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 1.47;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  color: #1d1d1f;
+  font-style: normal;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.55rem;
+  line-height: 1.5;
+}
+
+/* Navigation */
+.nav__main {
+  font-size: 14px;
+  height: 50px;
+  background-color: var(--black-color);
+  position: sticky;
+}
+
+.nav__main-contents {
+  width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-items: center;
+}
+
+.nav__main a {
+  margin: auto;
+  color: var(--light-grey-color);
+}
+
+.nav__main a:hover {
+  color: var(--white-color);
+}
+
+.nav__main-logo,
+.nav__main-search,
+.nav__main-basket {
+  height: 45px;
+  margin: 0 20px;
+}
+
+/* Section 1: landing */
+.landing {
+  height: 70vh;
+  text-align: center;
+  background: url("../img/landing-background.jpg") no-repeat center center/cover;
+  color: var(--white-color);
+  padding: 2em;
+}
+
+.landing h2 {
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.landing h3 {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+  margin-top: 0.4em;
+}
+
+.landing p {
+  margin-top: 0.4em;
+  color: var(--grey-color);
+}
+
+.landing a {
+  margin: 1em 0.8em;
+}
+
+.landing a::after {
+  content: ">";
+  margin-left: 0.4em;
+}

@@ -32,19 +32,37 @@ body {
   font-style: normal;
 }
 
+/* Anchor styling*/
 a {
   color: #0066cc;
   text-decoration: none;
+}
+
+.link__large {
+  margin: 1em 0.8em;
+  font-size: 21px;
+}
+
+.link__large::after {
+  content: ">";
+  margin-left: 0.4em;
 }
 
 ul {
   list-style: none;
 }
 
+/* Paragraph styling */
 p {
   margin: 0.5rem 0;
 }
 
+.pricing {
+  margin-top: 0.4em;
+  color: var(--grey-color);
+}
+
+/* Headings */
 h1,
 h2,
 h3,
@@ -53,6 +71,29 @@ h5,
 h6 {
   margin-bottom: 0.55rem;
   line-height: 1.5;
+}
+
+.heading__large {
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.heading__medium {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+  margin-top: 0.4em;
+}
+
+/* Full width banner  */
+.banner__full {
+  height: 70vh;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 1em;
 }
 
 /* Navigation */
@@ -88,39 +129,23 @@ h6 {
 }
 
 /* Section 1: landing */
-.landing {
-  height: 70vh;
-  text-align: center;
+.section__1 {
   background: url("../img/landing-background.jpg") no-repeat center center/cover;
   color: var(--white-color);
-  padding: 2em;
 }
 
-.landing h2 {
-  font-size: 56px;
-  line-height: 1.07;
-  font-weight: 600;
-  letter-spacing: -0.005em;
+/* Section 2: Iphone 11 Pro */
+.section__2 {
+  background: url("../img/Iphone-11-landing.jpg") no-repeat center center/cover;
 }
 
-.landing h3 {
-  font-size: 28px;
-  line-height: 1.10722;
-  font-weight: 400;
-  letter-spacing: 0.004em;
-  margin-top: 0.4em;
+/* Section 3: Airpods */
+.section__3 {
+  background-color: #fafafa;
 }
 
-.landing p {
-  margin-top: 0.4em;
-  color: var(--grey-color);
-}
-
-.landing a {
-  margin: 1em 0.8em;
-}
-
-.landing a::after {
-  content: ">";
-  margin-left: 0.4em;
+.section__3 img {
+  display: block;
+  width: 80%;
+  margin: 2em auto;
 }

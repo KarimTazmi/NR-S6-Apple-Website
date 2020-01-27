@@ -175,13 +175,13 @@ h6 {
 
 /* Section 3: Airpods */
 .section__3 {
-  background-color: #fafafa;
   margin-bottom: 0;
   padding-bottom: 0;
   background: url("../img/airpods-background.jpg") no-repeat center center/cover;
   background-size: 70%;
   background-position-y: bottom;
   background-position-x: center;
+  background-color: #fafafa;
 }
 
 .section__3 img {

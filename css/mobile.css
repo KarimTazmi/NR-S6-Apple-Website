@@ -1,0 +1,84 @@
+/* Anchor styling*/
+.link__large {
+  margin: 1em 0.8em;
+  font-size: 19px;
+}
+
+/* Headings */
+.heading__large {
+  font-size: 32px;
+  line-height: 1.125;
+}
+
+.heading__medium {
+  font-size: 19px;
+  line-height: 1.4211;
+}
+
+.product__heading {
+  font-size: 32px;
+  line-height: 1.125;
+}
+
+.product__description {
+  font-size: 17px;
+  line-height: 1.2381;
+}
+
+/* Navigation */
+.nav__main {
+  display: none;
+}
+
+/* Section 1: landing */
+.section__1 {
+  background: url("../img/iphone-landing-mobile.jpg") no-repeat center
+    center/cover;
+}
+
+/* Section 2: Iphone 11 Pro */
+.section__2 {
+  background: url("../img/Iphone-11-landing-mobile.jpg") no-repeat center
+    center/cover;
+}
+
+/* Section 3: Airpods */
+.section__3 {
+  background-size: auto;
+  background-color: #fafafa;
+}
+
+/* Section 4: Secondary items */
+.product__cards {
+  grid-template-columns: 1fr;
+}
+
+.product__card {
+  padding: 1rem;
+  height: 60vh;
+}
+
+/* Section 4: Product backgrounds */
+.product__4 {
+  background-color: #fafafa;
+  background-size: 100%;
+}
+
+/* Footer */
+.footer__content {
+  width: auto;
+}
+
+.footer__menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer__menu-secondary {
+  width: auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer__menu-secondary a::after {
+  content: "";
+}

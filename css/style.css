@@ -1,4 +1,6 @@
-@import url("fonts.css") html {
+@import url("fonts.css");
+
+html {
   box-sizing: border-box;
 }
 
@@ -284,8 +286,4 @@ footer {
 .footer__menu-secondary a::after {
   content: "|";
   margin-left: 1rem;
-}
-
-.footer__menu-secondary a::after:last-child {
-  content: none;
 }

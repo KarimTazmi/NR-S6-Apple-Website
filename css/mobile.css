@@ -27,7 +27,15 @@
 
 /* Navigation */
 .nav__main {
-  display: none;
+  height: auto;
+}
+
+.nav__main-contents {
+  width: auto;
+}
+
+.nav__main-icon {
+  margin: 0 5px;
 }
 
 /* Section 1: landing */
